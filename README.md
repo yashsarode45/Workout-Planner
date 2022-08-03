@@ -24,3 +24,7 @@ to guide the user on the platform.
 - For the registration form, once the user clicks the register button, it checks if the username is already taken also checks the password with the mentioned conditions, and displays an alert accordingly.
 - The app dashboard accepts exercise name and the number of sets and reps, if the user enters text as input for sets and reps it displays an alert to enter the correct format that is a number.
 - The exercises can be added or deleted accordingly. 
+- Thus the flow on the app is: Home url-> user authenticated check -> redirecting to login or rendering home page -> App performance -> logout (loads logout url) -> user is logged out -> login page is rendered.
+## Lessons Learned
+
+- Integration of Django with React. After user authentication React page is loaded. Usage of React Router, React Hooks, localStorage was done to communicate between multiple components involved in the project. 
