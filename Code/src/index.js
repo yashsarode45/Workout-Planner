@@ -15,7 +15,9 @@ const options = {
   // you can also just use 'scale'
   transition: transitions.SCALE
 }
-
+//React renders HTML to the web page by using a function called ReactDOM.render().
+//The ReactDOM.render() function takes two arguments, HTML code and an HTML element.
+//The purpose of the function is to display the specified HTML code inside the specified HTML element.
 ReactDOM.render(
   <BrowserRouter>
     <AlertProvider template={AlertTemplate} {...options}>
